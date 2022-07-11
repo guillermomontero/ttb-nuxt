@@ -1,0 +1,14 @@
+.header-mobile {
+  width: 100%;
+  background: var(--green-color);
+  padding: 1em 2em;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.header-mobile h1 {
+  color: var(--white-color);
+  margin: 0 0 0.5em 0;
+  font-weight: 600;
+}

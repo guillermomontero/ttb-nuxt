@@ -1,10 +1,7 @@
 <script setup></script>
 <template>
-  <h3>TeeTimesBooking</h3>
-  <nav>
-    <ul>
-      <nuxt-link to="/">Home</nuxt-link>
-      <nuxt-link to="/contact">Contact</nuxt-link>
-    </ul>
-  </nav>
+  <header class="header-mobile">
+    <h1>TEETIMESBOOKING</h1>
+    <base-searcher />
+  </header>
 </template>

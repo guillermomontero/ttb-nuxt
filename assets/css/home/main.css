@@ -1,0 +1,185 @@
+.home-regions {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background: var(--gray-light-color);
+}
+
+.home-regions h3 {
+  font-weight: 700;
+  color: var(--gray-dark-color);
+  margin: 1em 0;
+}
+
+.home-regions__carousel {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.home-regions__regions {
+  padding: 1em 2em;
+}
+
+.home-regions__regions--title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--gray-dark-color); 
+}
+
+.field {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: 0 1em;
+  background: var(--white-color);
+}
+
+.field__head {
+  width: 200px;
+  height: 120px;
+  position: relative;
+  overflow: hidden;
+}
+
+.field__head img {
+  width: 100%;
+  height: auto;
+}
+
+.field__head--title {
+  position: absolute;
+  bottom: 0;
+  z-index: inherit;
+  width: 100%;
+  background: var(--gray-transparency);
+  padding: 0.5em;
+  text-align: center;
+}
+
+.field__head--title h3 {
+  color: var(--white-color);
+  margin: 0 0 0 0;
+}
+
+.field__body {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 1em;
+}
+
+.field__body--fields {
+  font-size: 0.8rem;
+  margin: 0 0 1em 0;
+}
+
+.field__body--price-from {
+  font-size: 0.7rem;
+  color: var(--gray-semi-color);
+  margin: 0 0 0.6em 0;
+}
+
+.field__body button {
+  -webkit-appearance: none;
+  flex: 0 1;
+  border: none;
+  outline: none;
+  background: var(--yellow-color);
+  color: var(--white-color);
+  padding: 0.5em;
+  height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.home-booking {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background: var(--white-color);
+}
+
+.home-booking h3 {
+  font-weight: 700;
+  color: var(--gray-dark-color);
+  margin: 1em 0;
+}
+
+.home-booking__carousel {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.home-booking__clubs {
+  padding: 1em 2em;
+}
+
+.home-booking__clubs--title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--gray-dark-color); 
+}
+
+.club {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: 0 1em;
+  background: var(--white-color);
+  border: 1px solid var(--gray-light-color);
+}
+
+.club__head {
+  width: 200px;
+  height: 120px;
+  position: relative;
+  overflow: hidden;
+  padding: 1em;
+}
+
+.club__head img {
+  width: 100%;
+  height: auto;
+}
+
+.club__body {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 1em;
+  border-top: 1px solid var(--gray-light-color);
+}
+
+.club__body--address {
+  font-size: 0.8rem;
+}
+
+.club__body--address:nth-last-child(3n) {
+  margin: 0 0 1em 0;
+}
+
+.club__body--price-between {
+  color: var(--gray-semi-color);
+  margin: 0 0 0.6em 0;
+}
+
+.club__body button {
+  -webkit-appearance: none;
+  flex: 0 1;
+  border: none;
+  outline: none;
+  background: var(--yellow-color);
+  color: var(--white-color);
+  padding: 0.5em;
+  height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}

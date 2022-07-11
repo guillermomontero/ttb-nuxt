@@ -5,5 +5,6 @@ export default {
 </script>
 <script setup></script> -->
 <template>
-  <h1>TeeTimesBooking</h1>
+  <home-section-regions />
+  <home-section-booking />
 </template>
