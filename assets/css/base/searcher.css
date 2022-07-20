@@ -31,7 +31,25 @@
   outline: none;
   background: var(--yellow-color);
   color: var(--white-color);
-  padding: 1em;
+  padding: 0 1em;
   height: 40px;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+@media (min-width: 600px) {
+  .searcher {
+    max-width: 560px;
+  }
+
+  .searcher input[type="text"] {
+    padding: 1em;
+    height: 48px;
+  }
+  
+  .searcher button {
+    height: 48px;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
 }

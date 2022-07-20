@@ -12,3 +12,87 @@
   margin: 0 0 0.5em 0;
   font-weight: 600;
 }
+
+.header-mobile img {
+  width: 434px;
+  height: auto;
+}
+
+.header-desktop {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.header-desktop__navbar {
+  width: 100%;
+  height: 80px;
+  background: var(--green-color);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  position: relative;
+}
+
+.header-desktop__navbar--logo {
+  flex: 1 1 auto;
+  text-align: center;
+  padding: 1em 2em;
+}
+
+.header-desktop__navbar--logo img {
+  width: 434px;
+  height: auto;
+}
+
+.header-desktop__navbar--menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: inherit;
+}
+
+.header-desktop__navbar--menu--item {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white-color);
+  height: 100%;
+  padding: 1em 2em;
+}
+
+.header-desktop__navbar--menu--item__cart {
+  background: var(--yellow-color);
+}
+
+.header-desktop__cta-search {
+  width: 100%;
+  height: 370px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  background-image: url('http://localhost:3000/_nuxt/public/header-ttb.jpg');
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  position: relative
+}
+
+.header-desktop__cta-search--info-club {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  z-index: inherit;
+  background: var(--gray-transparency);
+  color: var(--white-color);
+  padding: 0.5em 1em;
+  text-align: center;
+  font-size: 0.8rem;
+}

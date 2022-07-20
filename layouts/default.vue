@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <Header></Header>
+  <TTBHeader></TTBHeader>
   <slot></slot>
-  <Footer></Footer>
+  <TTBFooter></TTBFooter>
 </template>

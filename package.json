@@ -13,6 +13,6 @@
   "dependencies": {
     "i": "^0.3.7",
     "npm": "^8.13.2",
-    "vue-material-design-icons": "^5.1.1",
+    "vue-material-design-icons": "^5.1.1"
   }
 }

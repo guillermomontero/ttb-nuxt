@@ -13,6 +13,7 @@ export default defineNuxtConfig({
   css: [
     '@/assets/css/global.css',
     '@/assets/css/header.css',
+    '@/assets/css/footer.css',
     '@/assets/css/base/input-text.css',
     '@/assets/css/base/button-icon.css',
     '@/assets/css/base/searcher.css',
